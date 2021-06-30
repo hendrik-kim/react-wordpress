@@ -1,0 +1,44 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*[Tt]humbs.db
+*.Trashes
+*.htaccess
+
+*.log
+error_log
+access_log
+.sass-cache
+
+local-config.php
+wp-config.php
+node_modules
+
+/*
+!*.html
+!.gitignore
+!wp-content/
+# !media/
+!favicon.ico
+!favicon.png
+!robots.txt
+!humans.txt
+
+# wp-content/*
+# wp-content/plugins/
+wp-content/mu-plugins/
+wp-content/uploads/
+!wp-content/plugins.zip
+!wp-content/uploads.zip
+!wp-content/themes/
+# !wp-content/uploads ##=> It's a good idea to ignore uploads, especially if you are using git to deploy to live/dev environments. Un-comment this line to 'watch' uploads
+
+# wp-content/plugins/*
+# !wp-content/plugins/my-single-file-plugin.php
+# !wp-content/plugins/my-directory-plugin/
+
+# wp-content/themes/*
+# !wp-content/themes/my-theme/

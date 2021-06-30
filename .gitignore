@@ -34,6 +34,7 @@ wp-content/uploads/
 !wp-content/plugins.zip
 !wp-content/uploads.zip
 !wp-content/themes/
+!frontend
 # !wp-content/uploads ##=> It's a good idea to ignore uploads, especially if you are using git to deploy to live/dev environments. Un-comment this line to 'watch' uploads
 
 # wp-content/plugins/*
